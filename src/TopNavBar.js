@@ -9,7 +9,7 @@ export default function TopNavBar() {
         <nav class="navbar is-white is-fixed-top has-shadow">
           <div class="navbar-brand">
             <a class="navbar-item">
-              <img src="./logo.png" />
+              <img src="logo.png" />
             </a>
             <a
               onClick={() => {
