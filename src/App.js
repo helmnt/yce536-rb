@@ -2,17 +2,13 @@ import React from 'react';
 import './style.css';
 import TopNavBar from './TopNavBar';
 import BottomInputBar from './BottomInputBar';
-import Pick from './Pick';
+import Picks from './Picks';
 
 export default function App() {
   return (
     <>
       <TopNavBar />
-      <Pick />
-      <Pick />
-      <Pick />
-      <Pick />
-      <Pick />
+      <Picks />
       <BottomInputBar />
     </>
   );
