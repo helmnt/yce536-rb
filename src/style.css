@@ -10,7 +10,7 @@ p {
   --row_increment: 10px;
   --pick_border_radius: 5px;
   --pick_small: 26;
-  --pick_medium: 33;
+  --pick_medium: 28;
   --pick_large: 45;
 }
 
@@ -35,20 +35,16 @@ body {
 }
 
 .pick {
-  padding: 0;
-  margin: 15px 10px;
+  padding: 0px;
+  margin: 10px;
   border-radius: var(--pick_border_radius);
-  background-color: gray;
+  grid-row-end: span 27;
 }
 
-.pick-small {
-  grid-row-end: span var(--pick_small);
+.pick-red {
+  background-color: lightsalmon;
 }
 
-.pick-medium {
-  grid-row-end: span var(--pick_medium);
-}
-
-.pick-large {
-  grid-row-end: span var(--pick_large);
+.pick-green {
+  background-color: lightgreen;
 }
